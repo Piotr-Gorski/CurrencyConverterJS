@@ -1,0 +1,43 @@
+    <!DOCTYPE html>
+    <head>
+    <title>Currency converter</title>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container">
+    <div class="form-row">
+        <div class="col">
+        <select id="inputCurrency" class="form-control">
+        
+        <option value="CHF">CHF</option>
+        <option value="EUR" selected>EUR</option>
+        <option value="USD">USD</option>
+    
+        </select>
+        </div>
+        <div class="col">
+        <input type="number" id="inputValue" value="1" class="form-control">
+        </div>
+        <div class="col">
+
+        <select  id="outputCurrency" class="form-control">
+                
+        <option selected value="PLN">PLN</option>
+        
+        </select>
+
+        </div>
+        <div class="col">
+        <input type="number" class="form-control" id="outputValue" value="1">
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="loadDailyRates()">Convert</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+    </body>
+    </html>

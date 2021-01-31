@@ -1,0 +1,12 @@
+
+
+body {
+    background-image: url("https://www.milwaukeeindependent.com/wp-content/uploads/2019/11/102719_DarkMoney.jpg");
+    background-size: cover;
+    margin-top: 200px;
+}
+
+#outputCurrency {
+    margin-left: 20px;
+}
+
